@@ -1,0 +1,26 @@
+.error-con{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.error-con>h1{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.error-con>button{
+    padding: 5px 10px;
+    background-color: #0000b3;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    font-family: 'poppins';
+    border-radius: 5px;
+
+}

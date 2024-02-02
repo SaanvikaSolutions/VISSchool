@@ -1,0 +1,202 @@
+.admissions-banner-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.admissions-banner-img>img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* admissions-header */
+.admissions-header{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom:30px;
+    gap: 15px;
+}
+
+.admissions-header-div>h1{
+    font-size: 1.5rem;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    color: #f57a25;
+    font-weight: 600;
+}
+.admissions-header-div>p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    color: gray;
+}
+
+/* admission form */
+.admissions-form{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.admission-form-con{
+    width: 70%;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 30px 40px;
+}
+.admission-form-con-header{
+    font-size: 1.3rem;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.adm-enq-fst{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom:1px solid  rgb(192, 192, 192);
+}
+
+.adm-enq-fst-div1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.adm-enq-fst-div1>label{
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #4a4a4a;
+}
+.adm-enq-fst-div1>label span{
+    color: red;
+}
+.adm-enq-fst-div1>select{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    height: 39px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid  rgb(192, 192, 192);
+    padding: 5px;
+}
+.adm-enq-fst-div1>input{
+    height: 35px;
+    outline: none;
+    border: 1px solid  rgb(192, 192, 192);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.contact-info-form{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+/* adm-enq-third */
+.adm-enq-third{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    border-bottom:1px solid  rgb(192, 192, 192);
+}
+.adm-enq-third-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-info-form-three{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.admission-submit-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.admission-submit-btn>button{
+    color:white;
+    min-width: 150px;
+    width:fit-content;
+    padding: 10px 15px;
+    border: none;
+    background-color: #03438F;
+    font-size: 1rem;
+    font-family: 'poppins';
+    cursor: pointer;
+}
+
+@media all and (max-width:1009px){
+    .admission-form-con{
+        width: 90%;
+    }
+}
+
+@media all and (max-width:831px){
+    .contact-info-form-three{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:563px){
+    .admissions-header{
+        width: 90%;
+    }
+    .admissions-header-div>h1{
+        font-size: 1.1rem;
+    }
+    .admissions-header-div>p{
+        font-size: 0.9rem;
+    }
+
+    /* .adm-enq-fst */
+    .adm-enq-fst{
+        display: flex;
+        flex-direction: column;
+    }
+    .adm-enq-fst-div1>label{
+        font-size: 1rem;
+
+    }
+
+    .adm-enq-fst-div1>select{
+        font-size: 0.9rem;
+         height: 30px;
+    }
+    .admission-form-con{
+        padding: 10px 15px;
+    }
+    .admission-form-con-header{
+        font-size: 1.2rem;
+    }
+
+    .contact-info-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .admission-submit-btn>button{
+        color:white;
+        min-width: 100px;
+        width:fit-content;
+        padding: 5px 10px;
+        border: none;
+        background-color: #03438F;
+        font-size: 0.9rem;
+        font-family: 'poppins';
+        cursor: pointer;
+    }
+}

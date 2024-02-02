@@ -1,0 +1,199 @@
+.contact-con{
+    min-height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./contactassets/contactus.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.conatct-form{
+    width: 800px;
+    background-color: white;
+    min-height: 30vh;
+    border-radius: 10px;
+    padding: 30px;
+}
+.conatct-form>p{
+    font-size: 1.1rem;
+    font-family: 'poppins';
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 5px;
+    color: #4F5DE4;
+}
+.conatct-form>h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'poppins';
+}
+.contact-inner-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.contact-inner-form>div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.contact-inner-form>div input{
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'poppins';
+}
+.contact-inner-form>div select{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+    font-family: 'poppins';
+    height: 45px;
+}
+.contact-inner-form>textarea{
+    min-height: 150px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    background-color: #F6F6F6;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'poppins';
+    outline: none;
+    border: none;
+}
+.contact-inner-form>button{
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: white;
+    border:none;
+    min-height: 50px;
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #F57005;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.contact-inner-form>button:hover{
+    background-color: #e26703;
+}
+
+/* contact info  */
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contact-info>div{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 9px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+    min-height: 300px;
+}
+.contact-info>div h1{
+    font-size: 1.2rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #2A254D;
+}
+.contact-info>div p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #697585;
+}
+
+.contact-info>div:hover{
+    background: #4F5DE4;
+    cursor: pointer;
+}
+.mailoutlineicon{
+    color: #4F5DE4;
+}
+
+.contact-info>div:hover .mailoutlineicon{
+    color: white;
+}
+
+.contact-info>div:hover h1,
+.contact-info>div:hover p{
+    color: white;
+}
+@media all and (max-width:1240px){
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (max-width:810px){
+    .conatct-form{
+        width:98%;
+    }
+}
+
+@media all and (max-width:630px){
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media all and (max-width:517px){
+    .contact-inner-form>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .conatct-form>p{
+        font-size: 1rem;
+    }
+    .conatct-form>h1{
+        font-size: 1.3rem;
+    }
+    .contact-inner-form>textarea{
+        min-height: 110px;
+    }
+    .contact-inner-form>button{
+        min-height: 40px;
+        padding: 10px 20px;
+    }
+}
+

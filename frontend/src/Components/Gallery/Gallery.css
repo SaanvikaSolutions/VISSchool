@@ -1,0 +1,112 @@
+.video-container{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.video-container>p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'poppins';
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.video-tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.65;
+}
+.video-tag>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* gallery-images div starts from here */
+.gallery-images{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.gallery-img-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.gallery-img-header>h1{
+    font-size: 2rem;
+    font-family: 'poppins';
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.gallery-img-header>p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+}
+.responsive-masonry-div{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.gallery-img-inner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(auto,1fr));
+    grid-template-rows: minmax(200px,auto);
+    grid-auto-flow: dense;
+    gap: 10px;
+}
+
+.gallery-img-inner-item{
+    margin: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.gallery-img-inner-item>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    transition: all 0.3s ease;
+}
+
+.gallery-img-inner-item img:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    .responsive-masonry-div{
+        width: 95%;
+    }
+}
+
+
+
+@media all and (max-width:600px){
+    .gallery-img-header>h1{
+        font-size: 1.3rem;
+    }
+    .gallery-img-header>p{
+        font-size: 0.8rem;
+    }
+    .video-container>p{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.nav-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:white;
+    min-height: 70px;
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+}
+.nav-inner-con{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    gap: 10px;
+}
+
+.nav-log-outbox{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav-log{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top:5px;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    z-index: 999;
+}
+.nav-log>img{
+    height: 90px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.nav-log-head{
+    display: flex;
+    flex-direction:column ;
+    gap: 2px;
+}
+
+.nav-log-head>p{
+    font-size: 1.3rem;
+    font-family: 'opensans';
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(2, 2, 110);
+}
+
+.nav-log-head>p span{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: 'opensans';
+    color: #e72f01;
+    font-weight: 600;
+}
+
+.nav-log-ul>ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:white;
+    gap: 2px;
+    row-gap: 10px;
+    
+}
+.nav-log-ul>ul li{
+    
+    
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: 'poppins';
+    font-weight: 600;
+    position: relative;
+    height: 25px;
+    text-align: center;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+
+.nav-log-ul>ul li .button-wrapper, .btn-wrapper-top,.btn-wrapper-bottom{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    
+}
+.btn-wrapper-top{
+   top:0;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+.btn-wrapper-top, .btn-wrapper-bottom{
+    transition: top 0.5s;
+}
+.btn-wrapper-bottom{
+    top:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-log-ul>ul li:hover{
+    cursor: pointer;
+}
+.nav-log-ul>ul li:hover .btn-wrapper-top{
+    top: -100%;
+}
+.nav-log-ul>ul li:hover .btn-wrapper-bottom{
+    top: 0;
+}
+.btn-wrapper-bottom{
+    color: #FF5C35;
+}
+
+.nav-res{
+    display: none;
+}
+.nav-res-lines{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.nav-res-lines>div{
+    width: 21px;
+    height: 3px;
+    background-color: #FF5C35;
+}
+.nav-res>p{
+    font-size: 1.1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #FF5C35;
+}
+
+
+
+.list-box{
+    width: 399px;
+    padding-top:90px ;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-bottom: 60px;
+}
+.list-box li{
+    width: 100%;
+    padding: 11px 30px;
+    font: 1.3rem;
+    font-family: 'poppins';
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+}
+
+.active{
+    color: #FF5C35;
+}
+
+@media screen and (max-width:1467px){
+    .nav-log-ul>ul li{
+        font-family: 0.75rem;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .nav-con{
+        min-height: 50px;
+    }
+    .nav-log-ul{
+        display: none;
+    }
+    .nav-res{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        gap: 5px;
+        text-transform: capitalize;
+    }
+
+    .nav-log{
+        position: absolute;
+        top:-5px;
+    }
+
+    .active{
+        color: #FF5C35;
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (max-width:729.1234px){
+    .nav-log{
+        padding: 5px;
+        gap: 3px;
+    }
+    .nav-log>img{
+        height: 60px;
+    }
+    .nav-log-head>p{
+        font-size: 0.9rem;
+    }
+    .nav-log-head>p span{
+        font-size: 1.1rem;
+    }
+    .nav-inner-con{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:410.123456px){
+    .list-box{
+        width: 300px;
+    }
+}
+@media screen and (max-width:310.123456px){
+    .list-box{
+        width: 250px;
+    }
+}

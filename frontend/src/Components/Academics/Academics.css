@@ -1,0 +1,188 @@
+.academic-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.academic-banner>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* academic-curriculum */
+.academic-curriculum{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.academic-cur-first{
+    display: flex;
+    flex-direction: column;
+}
+.curriculum-header{
+    color: #f57a25;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.academic-cur-first>p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    color: gray;
+    margin-top: 20px;
+}
+/* list-tasks */
+.list-tasks{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.list-tasks>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    font-family: 'poppins';
+    color: gray;
+
+}
+
+.academic-cur-first-inner{
+    display: flex;
+    flex-direction: column;
+}
+.academic-cur-first-inner>p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    color: gray;
+
+}
+.academic-cur-first-inner>h1{
+    font-size: 1.5rem;
+    font-family: 'poppins';
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.academic-curriculum-img{
+    height: 250px;
+    width: auto;
+}
+.academic-curriculum-img>img{
+    width: auto;
+    height: 100%;
+    object-fit: fill;
+}
+
+.academics-assignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+    margin-bottom: 5%;
+}
+.academics-assignment-img{
+    width: auto;
+    height: 250px;
+}
+.academics-assignment-img>img{
+    width: auto;
+    height: 100%;
+    object-fit: fill;
+}
+
+.academics-assignment-first{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.academics-assignment-first>h1{
+    color: #f57a25;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.academics-assignment-first>p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    color: gray;
+}
+
+@media all and (max-width:1100px){
+    .academic-curriculum{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:800px){
+    .academic-curriculum-img{
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+    .academic-curriculum-img>img{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .academics-assignment{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media all and (max-width:600px){
+    .academic-cur-first-inner>h1{
+        font-size: 1.2rem;
+    }
+    .academic-cur-first-inner>p{
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+    .academic-cur-first>p{
+        font-size: 0.9rem;
+    }
+    .list-tasks>li{
+        font-size: 0.9rem;
+    }
+
+    .academics-assignment{
+        gap: 20px;
+    }
+    
+    .academics-assignment-first>p{
+        font-size: 0.9rem;
+    }
+
+    .academics-assignment-img{
+        width: 100%;
+        height: auto;
+    }
+    .academics-assignment-img>img{
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+    }
+    .academics-assignment-first>h1{
+        font-size: 1.1rem;
+    }
+    .curriculum-header{
+        font-size: 1.1rem;
+    }
+}
