@@ -1,6 +1,8 @@
 import React from 'react';
 import './Faq.css';
 
+import Footer from '../Footer/Footer';
+
 function Faq(){
     return(
         <>
@@ -34,7 +36,7 @@ function Faq(){
                     </div>
                 </div>
             </div>
-            
+            <Footer/>
         </>
     );
 }

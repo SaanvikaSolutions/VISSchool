@@ -5,7 +5,7 @@ import CallIcon from '@mui/icons-material/Call';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-
+import Footer from '../Footer/Footer';
 
 function Contact(){
     useEffect(()=>{
@@ -73,6 +73,7 @@ function Contact(){
                     <p>8.30 AM - 1.00 PM</p>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

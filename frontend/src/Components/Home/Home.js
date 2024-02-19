@@ -3,6 +3,8 @@ import './Home.css';
 import Homepic from './hassets/homepic.png';
 import weltvis from './hassets/discussion.jpg';
 
+import Footer from '../Footer/Footer';
+
 function Home(){
     const [philosophy,setphilosophy] = useState(false);
     useEffect(()=>{
@@ -48,6 +50,7 @@ function Home(){
                 </div>
 
             </div>
+            <Footer/>
         </>
     );
 }

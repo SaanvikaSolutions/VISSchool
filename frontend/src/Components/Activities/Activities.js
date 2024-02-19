@@ -8,6 +8,8 @@ import Sciencefair from './Actassets/sciencefair.jpg';
 import service from './Actassets/service.jpg';
 import sports from './Actassets/sports.webp';
 
+import Footer from '../Footer/Footer';
+
 function Activities(){
 
     
@@ -133,7 +135,7 @@ function Activities(){
                 </div>
                 
             </div>
-            
+            <Footer/>
         </>
     );
 }

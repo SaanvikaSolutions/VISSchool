@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import './Gallery.css';
 import Promo from './Galleryasset/promo.mp4';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import Footer from '../Footer/Footer';
 
 // image gallery
 import g1 from './Galleryasset/g1.jpg';
@@ -78,6 +79,7 @@ function Gallery(){
 
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

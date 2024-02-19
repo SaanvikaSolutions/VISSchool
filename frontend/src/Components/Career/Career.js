@@ -1,6 +1,7 @@
 import React from 'react';
 import './Career.css';
 import Careerbanner from './Career/careerbanner.jpg';
+import Footer from '../Footer/Footer';
 
 function Career(){
     return(
@@ -36,6 +37,7 @@ function Career(){
                     <h3>Total Openings: 0</h3>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

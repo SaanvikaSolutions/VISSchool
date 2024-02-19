@@ -5,6 +5,8 @@ import TaskAltIcon from '@mui/icons-material/TaskAlt';
 import Curriculum from './Academicassets/curriculum.PNG';
 import Assignment from './Academicassets/assignment.PNG';
 
+import Footer from '../Footer/Footer';
+
 function Academics(){
     useEffect(()=>{
         window.scrollTo({top:0,behavior:'instant'});
@@ -112,6 +114,7 @@ function Academics(){
                     </p>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

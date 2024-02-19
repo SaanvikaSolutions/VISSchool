@@ -37,7 +37,8 @@
 
 .about-us-head-v-m{
     min-height: 80px;
-    background-color:#96BB7C ;
+    /* background-color:#96BB7C ; */
+    background-color: #f59048;
     width: fit-content;
     margin: auto;
     padding-left: 50px;
@@ -129,7 +130,7 @@
 .about-three-p-l{
     width: 200px;
     height: 5px;
-    background-color: #96BB7C;
+    background-color: #f38c43;
 }
 .about-three-pillars-head>p{
     font-size: 1rem;
@@ -169,7 +170,7 @@
 .about-tp-con-each-line{
     width: 150px;
     height: 5px;
-    background-color: #96BB7C;
+    background-color: #f38c43;
 }
 .about-tp-con-each>h1{
     font-size: 1.3rem;

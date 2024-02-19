@@ -2,6 +2,7 @@ import React from 'react';
 import './Admissions.css';
 
 import Admissionsbanner from './Admissionassets/admissionsbanner.jpg';
+import Footer from '../Footer/Footer';
 
 function Admissions(){
     return(
@@ -152,6 +153,7 @@ function Admissions(){
                 </div>
 
             </div>
+            <Footer/>
         </>
     );
 }

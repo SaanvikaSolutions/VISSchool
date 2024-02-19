@@ -177,7 +177,13 @@
     color: black;
 }
 
-.active{
+.list-box .active li{
+    color: #FF5C35;
+}
+.nav-log-ul>ul li .btn-wrapper-top{
+    color: black;
+}
+.nav-log-ul>ul .active li .btn-wrapper-top{
     color: #FF5C35;
 }
 
@@ -210,7 +216,7 @@
         top:-5px;
     }
 
-    .active{
+    .list-box .active{
         color: #FF5C35;
         background-color: aliceblue;
     }

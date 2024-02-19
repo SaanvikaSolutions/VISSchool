@@ -51,14 +51,14 @@
     /* border-radius: 50%; */
 }
 .home-sec-welcome-vis-head{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'poppins';
-    color: #4F5DE4;
+    color:#FF5C35;
     font-weight: 600;
     text-transform: capitalize;
 }
 .home-sec-welcome-vis>h1{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-family: 'poppins';
     font-weight: 600;
     text-transform: capitalize;
@@ -122,9 +122,20 @@
 }
 
 @media screen and (max-width:600px){
+    .home-sec-welcome-vis-head{
+        font-size: 0.89rem;
+    }
     .home-sec-con-img>img{
         width: 95%;
         margin: auto;
+    }
+
+    .home-sec-welcome-vis-sec-p{
+        font-size: 0.87rem;
+    }
+
+    .home-sec-welcome-vis>h1{
+        font-size: 1.05rem;
     }
 }
 

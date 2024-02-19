@@ -9,6 +9,7 @@ import CallIcon from '@mui/icons-material/Call';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import Footer from '../Footer/Footer';
 
 function Facilities(){
     
@@ -121,6 +122,7 @@ function Facilities(){
                 </div>
             </div>
             
+            <Footer/>
             
         </>
     );

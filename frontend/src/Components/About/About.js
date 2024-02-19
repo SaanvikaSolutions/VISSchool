@@ -11,6 +11,8 @@ import tpillar3 from './aboutassets/tpillar3.png';
 
 import Principle from './aboutassets/principal.jpg';
 
+import Footer from '../Footer/Footer';
+
 function About(){
     useEffect(()=>{
         window.scrollTo({top:0,behavior:'instant'});
@@ -116,6 +118,8 @@ function About(){
                     </div>
                 </div>
             </div>
+
+            <Footer/>
         </>
     );
 }
