@@ -9,9 +9,13 @@ import tpillar1 from './aboutassets/tpillar1.png';
 import tpillar2 from './aboutassets/tpillar2.png';
 import tpillar3 from './aboutassets/tpillar3.png';
 
-import Principle from './aboutassets/principal.jpg';
+// import Principle from './aboutassets/principal.jpg';
 
 import Footer from '../Footer/Footer';
+
+ //chairman message
+ import cm1 from '../../Assets/cm1.jpeg';
+ import cm2 from '../../Assets/cm2.jpeg';
 
 function About(){
     useEffect(()=>{
@@ -105,17 +109,44 @@ function About(){
                     </div>
                 </div>
             </div>
+            <div className='homepage-msgch'>
+                <div>
+                    <h1>Message From Chairman</h1>
+                    <img src={cm1} alt='cm1'/>
+                    <h3>Dr. Koradala Naresh</h3>
+                    <p>Dr. Koradala Naresh, a distinguished academician and visionary leader, serves as the Director of 
+                        vanitha  Degree College. With a  profound commitment to education and a wealth 
+                        of experience, Dr. Naresh has been instrumental in shaping the college’s ethos 
+                        and fostering an environment of academic excellence. Guided by a vision of 
+                        empowering students with knowledge and skills that transcend conventional 
+                        boundaries, Dr. Naresh leads Vanitha  Degree College with passion and dedication. His leadership 
+                        philosophy is rooted in the belief that education is not just about acquiring 
+                        information but also about instilling values, critical thinking, and a passion 
+                        for lifelong learning.</p>
+                </div>
+                <div>
+                    <h1>Message From correspondent</h1>
+                    <img src={cm2} alt='cm2'/>
+                    <h3>Smt. Lavanya Naresh</h3>
+                    <p>Smt. Lavanya Naresh,  always articulate that our present Education System isn’t 
+                        worth a great deal if it teaches Young People how to make a Living but doesn’s 
+                        teach them how to make a Life… System is increasingly embracing a 
+                        Black-and-White way of thinking, in which Learning and Play are DIAMETRICALLY 
+                        OPPOSED. So, the true purpose of Education is to make Minds, not Careers… President vanitha 
+                        degree college threw in the Powerful Weapons which are used to change the world.</p>
+                </div>
+            </div>
             {/* principle Name */}
             <div className='principal-name'>
-                <h1>principal</h1>
+                <h1>Principal's Message</h1>
                 <div className='principal-para'>
                     <p>We endeavour to promote a classroom of thinkers who would have the courage and conviction to lead the world with their astute insight, 
                         competency, calibre and impeccable values. The School’s commitment to broaden the students’ horizons and enable them to carve an integrated 
                         and an enlightened world- a world that fosters unity yet celebrates the uniqueness of each individual. May this sapling grow into a sturdy 
                         tree and spread its branche</p>
-                    <div className='principal-para-img'>
+                    {/* <div className='principal-para-img'>
                          <img src={Principle} alt='principle'/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
