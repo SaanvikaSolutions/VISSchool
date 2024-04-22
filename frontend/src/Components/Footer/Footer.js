@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Footer.css';
-import Vislogo from '../../Assets/vislogo.jpeg';
+import Vislogo from '../../Assets/vislogo.png';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -73,7 +73,7 @@ function Footer(){
                         </li>
                         <li>
                             <LocationOnIcon/>
-                            <p>Beside Siddartha B.Ed college, Urella, road, Chevella, Telangana 501503</p>
+                            <p>Beside Siddartha B.Ed college, Urella road, Chevella, Telangana, 501503</p>
                         </li>
                     </ul>
                 </div>

@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import './Navbar.css';
-import Vlogo from '../../Assets/vislogo.jpeg';
+import Vlogo from '../../Assets/vislogo.png';
 import { NavLink } from 'react-router-dom';
 import Drawer from '@mui/material/Drawer';
 
