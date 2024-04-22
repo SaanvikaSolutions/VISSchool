@@ -24,7 +24,7 @@
     text-transform: capitalize;
     font-weight: 600;
     padding: 5px;
-    color: #4F5DE4;
+    color: black;
 }
 .conatct-form>h1{
     text-align: center;
@@ -32,6 +32,7 @@
     font-weight: 700;
     text-transform: capitalize;
     font-family: 'poppins';
+    color: #F57005;
 }
 .contact-inner-form{
     display: flex;
@@ -142,11 +143,11 @@
 }
 
 .contact-info>div:hover{
-    background: #4F5DE4;
+    background: #F57005;
     cursor: pointer;
 }
 .mailoutlineicon{
-    color: #4F5DE4;
+    color: #F57005;
 }
 
 .contact-info>div:hover .mailoutlineicon{
