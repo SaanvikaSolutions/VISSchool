@@ -1,9 +1,9 @@
 import React,{useEffect} from 'react';
 import './Academics.css';
-import Academicsbanner from './Academicassets/academicsbanner.jpg';
+import Academicsbanner from './Academicassets/academicsbanner.jpeg';
 import TaskAltIcon from '@mui/icons-material/TaskAlt';
-import Curriculum from './Academicassets/curriculum.PNG';
-import Assignment from './Academicassets/assignment.PNG';
+import Curriculum from './Academicassets/curriculum.jpg';
+import Assignment from './Academicassets/assignment.jpg';
 
 import Footer from '../Footer/Footer';
 
@@ -15,6 +15,7 @@ function Academics(){
         <>
             <div className='academic-banner'>
                 <img src={Academicsbanner} alt='academics-banner'/>
+                {/* <p>Academics</p> */}
             </div>
             
             <div className='academic-curriculum'>
