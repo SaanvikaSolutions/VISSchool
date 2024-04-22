@@ -137,7 +137,7 @@
     }
 }
 
-@media screen and (max-width:984px){
+@media screen and (max-width:1084px){
     .third-con-each{
         display: flex;
         flex-direction: column-reverse;

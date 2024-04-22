@@ -1,12 +1,12 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import './Activities.css';
-import Activitieslogo from './Actassets/activities.png';
+import Activitieslogo from './Actassets/activities.jpeg';
 
-import Cultural from './Actassets/cultural.webp';
-import Events from './Actassets/events.png';
+import Cultural from './Actassets/cultural.jpg';
+import Events from './Actassets/events.jpg';
 import Sciencefair from './Actassets/sciencefair.jpg';
 import service from './Actassets/service.jpg';
-import sports from './Actassets/sports.webp';
+import sports from './Actassets/sports.jpg';
 
 import Footer from '../Footer/Footer';
 
@@ -20,6 +20,9 @@ function Activities(){
     //     <img src={Events} alt='events'/>,
     //     <img src={sports} alt='sports'/>
     // ]
+    useEffect(()=>{
+        window.scrollTo({top:0,behavior:'instant'});
+    },[]);
 
     return(
         <>
