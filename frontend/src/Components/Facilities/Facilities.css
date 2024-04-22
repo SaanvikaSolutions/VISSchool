@@ -144,6 +144,65 @@
     cursor: pointer;
 }
 
+/* facilities meru con */
+.facilities-meru-con{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.facilities-meru-con-each{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.facilities-meru-con-each-inner{
+    background-image: linear-gradient(to left top, #d6eaec, #c2e3f0, #b5dbf7, #b5cffb, #c2c0f9);
+    padding: 10px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.facilities-meru-con-each-inner>img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.facilities-meru-con-each>h1{
+    font-family: 'poppins';
+    color: #353171;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.facilities-meru-con-each>p{
+    font-family: 'poppins';
+    color: black;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:1300px){
+    .facilities-meru-con{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 @media all and (max-width:1200px){
     .fac-thd-con-dis{
         grid-template-columns: repeat(2,1fr);
@@ -154,6 +213,11 @@
     .facilities-intro{
         display: flex;
         flex-direction: column;
+    }
+}
+@media screen and (max-width:810px){
+    .facilities-meru-con{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
@@ -178,5 +242,14 @@
     }
     .fac-thd-con-dis>div{
         height: 399px;
+    }
+}
+@media screen and (max-width:410px){
+    .facilities-meru-con{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .facilities-meru-con-each{
+        width: 100%;
+        height: auto;
     }
 }
