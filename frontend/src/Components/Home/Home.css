@@ -109,6 +109,278 @@
     display: none;
 }
 
+/* home-page-vis-meru */
+.home-page-vis-meru{
+    padding-top: 5%;
+    padding-bottom:5%;
+    background-color: #EFEFEF;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.home-page-vis-meru>h1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 1.65rem;
+    font-weight: 600;
+    color: #f57a25;
+}
+
+.home-page-vis-meru>h2{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'poppins';
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home-page-vis-meru>p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.home-remain-vis15{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.home-remain-vis15>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home-remain-vis15>div img{
+    width: 100px;
+    height: auto;
+}
+
+.home-remain-vis15>div h1{
+    font-size: 1.1rem;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+/* home-page-curriculum */
+.home-page-curriculum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+
+.home-page-curriculum>h1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 1.65rem;
+    font-weight: 600;
+    color: #f57a25;
+}
+
+.home-page-curriculum>p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* homepage-three-curriculum */
+.homepage-three-curriculum{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.homepage-three-curriculum>h1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 1.65rem;
+    font-weight: 600;
+    color: #f57a25;
+}
+
+/* homepage-three-curriculum-box-each */
+.homepage-three-curriculum-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 30px;
+    /* padding-left: 6%;
+    padding-right: 6%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homepage-three-curriculum-box-each{
+    width: 350px;
+    min-height: 420px;
+    background-color: #2A254D;
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homepage-three-curriculum-box-each:nth-child(3){
+    background-image: linear-gradient(to left bottom, #051937, #002265, #002795, #0025c2, #000bec);
+    color: white;
+}
+.homepage-three-curriculum-box-each:nth-child(2){
+    background-image: linear-gradient(to top, #b17300, #c48a18, #d6a22b, #e8bb3d, #f9d450);
+    color: #2A254D ;
+}
+.homepage-three-curriculum-box-each:nth-child(1){
+    background-image: linear-gradient(to top, #0094f2, #4d8eff, #8482ff, #b96fff, #ea50f9);
+    color: white;
+}
+.homepage-three-curriculum-box-each>h1{
+    font-size: 1.65rem;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.homepage-three-curriculum-box-each>p{
+    font-size: 1.2rem;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.homepage-three-curriculum-box-each>div{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -30px;
+    left: -10px;
+}
+
+.homepage-three-curriculum-box-each>div img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.home-hwd{
+    display: flex;
+    flex-direction:row ;
+    align-items: baseline;
+    justify-content: center;
+    gap: 30px;
+}
+
+.homepage-wwhy-vis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #EFEFEF;
+}
+
+.homepage-wwhy-vis>h1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 1.65rem;
+    font-weight: 600;
+    color: #f57a25;
+    text-align: center;
+}
+
+.homepage-wwhy-vis>p{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+
+.home-hwd>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-hwd>div p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight: 600;
+    color: #353171;
+    text-align: center;
+}
+
+/* message from the chair persons */
+.homepage-msgch{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    gap: 20px;
+}
+
+.homepage-msgch>div{
+    width: 100%;
+    min-height: auto;
+    background-color: #EFEFEF;
+    padding: 50px;
+    box-shadow: -1px 0px 14px -7px rgba(196,196,196,1);
+}
+
+.homepage-msgch>div h1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:#353171;
+    text-transform: capitalize;
+}
+
+.homepage-msgch>div h3{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f57a25;
+}
+
+.homepage-msgch>div p{
+    font-size: 0.9rem;
+    font-family: 'poppins';
+    text-align: center;
+}
+
+.homepage-msgch>div img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 @media screen and (max-width:1200px){
     .home-sec-con{
@@ -118,6 +390,51 @@
     .home-sec-con-img>img{
         width: 90%;
         margin: auto;
+    }
+    .home-remain-vis15{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width:1000px){
+    .homepage-msgch{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+}
+
+@media screen and (max-width:850px){
+    .home-hwd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:720px){
+    .home-page-vis-meru>h1{
+        font-size: 1.2rem;
+    }
+    .home-page-vis-meru>h2{
+        font-size: 0.9rem;
+    }
+    .home-page-vis-meru>p{
+        font-size: 0.8rem;
+    }
+    .home-remain-vis15{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .home-page-curriculum>h1{
+        font-size: 1.2rem;
+    }
+    .home-page-curriculum>p{
+        font-size: 0.8rem;
+    }
+    .homepage-three-curriculum>h1{
+        font-size: 1.2rem;
     }
 }
 
@@ -136,6 +453,27 @@
 
     .home-sec-welcome-vis>h1{
         font-size: 1.05rem;
+    }
+
+    .home-hwd{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+
+    .homepage-msgch>div{
+        padding: 20px;
+    }
+}
+
+@media all and (max-width:390px){
+    .homepage-three-curriculum-box-each{
+        width: 98%;
+    }
+    .home-hwd{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
     }
 }
 
