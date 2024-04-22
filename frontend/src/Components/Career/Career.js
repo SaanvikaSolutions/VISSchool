@@ -1,9 +1,12 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './Career.css';
 import Careerbanner from './Career/careerbanner.jpg';
 import Footer from '../Footer/Footer';
 
 function Career(){
+    useEffect(()=>{
+        window.scrollTo({top:0,behavior:'instant'});
+    },[]);
     return(
         <>
             <div className='career-banner'>

@@ -32,6 +32,7 @@
     text-transform: capitalize;
     margin-top: 40px;
     margin-bottom: 40px;
+    color: #FF5C35;
 }
 
 .career-boxes{
@@ -41,6 +42,7 @@
     width: 90%;
     margin: auto;
     gap: 10px;
+    margin-bottom: 5%;
 }
 
 .career-boxes>div{
@@ -59,7 +61,7 @@
     font-family: 'poppins';
     font-weight: 700;
     text-transform: capitalize;
-    color: #592d92;
+    color: black;
 }
 
 .career-boxes>div h2{
@@ -67,7 +69,7 @@
     font-family: 'poppins';
     font-weight: 500;
     text-transform: capitalize;
-    color: #592d92;
+    color: black;
 }
 
 .career-boxes>div p{
@@ -83,11 +85,11 @@
     font-size: 1.1rem;
     font-weight: 700;
     text-transform: capitalize;
-    color: #592d92;
+    color: black;
 }
 
 .career-boxes>div:hover{
-    background-color: #592d92;
+    background-color: #f57a25;
     cursor: pointer;
 }
 

@@ -49,6 +49,7 @@
     font-size: 1.3rem;
     font-family: 'poppins';
     font-weight: 600;
+    color: black;
 }
 .adm-enq-fst{
     display: flex;
@@ -132,7 +133,7 @@
     width:fit-content;
     padding: 10px 15px;
     border: none;
-    background-color: #03438F;
+    background-color: #f57a25;
     font-size: 1rem;
     font-family: 'poppins';
     cursor: pointer;
