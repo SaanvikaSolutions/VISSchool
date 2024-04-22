@@ -8,9 +8,9 @@
     align-items: center;
     background-color:white;
     min-height: 70px;
-    z-index: 9999;
+    z-index: 999;
     position: sticky;
-    top: 0;
+    top: 30px;
 }
 .nav-inner-con{
     width: 100%;
@@ -185,6 +185,30 @@
 }
 .nav-log-ul>ul .active li .btn-wrapper-top{
     color: #FF5C35;
+}
+
+.navbar-marquee-div{
+    min-height: 30px;
+    background-color: #f57a25;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9990;
+    color: white;
+}
+
+.navbar-marquee-div p{
+    font-weight: 500;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'poppins';
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 30px;
 }
 
 @media screen and (max-width:1467px){
