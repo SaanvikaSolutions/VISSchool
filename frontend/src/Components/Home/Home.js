@@ -64,7 +64,7 @@ function Home(){
                     </div>
                     <div>
                         <img src={vis3} alt='vis3'/>
-                        <h1>Cambridge & CBSE Curriculum</h1>
+                        <h1>CBSE Curriculum</h1>
                     </div>
                     <div>
                         <img src={vis4} alt='vis4'/>
