@@ -1,0 +1,19 @@
+.mandatory-disclosure-btn{
+    max-width:130px;
+    position: fixed;
+    top: 100px;
+    right:0px;
+}
+
+.mandatory-disclosure-btn>button{
+    border: none;
+    padding:3px 10px;
+    line-height: 20px;
+    background-color: #f57a25;;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 0.75rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import './Navbar.css';
 import Vlogo from '../../Assets/vislogo.png';
 import { NavLink } from 'react-router-dom';
@@ -8,17 +8,22 @@ import { useNavigate } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 
 function Navbar(){
+
     const navigate = useNavigate();
     const [menutoggle,setmenutoggle] = useState({
         left:false
     });
+    const [presentYear , setPresentYear] = useState(1);
+
+
     const toggleDrawer = (anchor, open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
           return;
         }
         setmenutoggle({...menutoggle,[anchor]:open});
-      };
-      const list = (anchor) => (
+    };
+
+    const list = (anchor) => (
         <ul
           onClick={toggleDrawer(anchor, false)}
           onKeyDown={toggleDrawer(anchor, false)}
@@ -36,13 +41,19 @@ function Navbar(){
             <NavLink to='/faq'><li>FAQ's</li></NavLink>
             <NavLink to='/contact'><li>contact</li></NavLink>
         </ul>
-        )
+    )
+
+    useEffect(()=>{
+        const todayDate = new Date();
+        const year = Number(todayDate.getFullYear());
+        setPresentYear(year);
+    },[]);
     return(
         <>
         <div className='navbar-marquee-div' onClick={()=>navigate('/admissions')}>
                     <Marquee >
-                        <p>School Admissions Open for 2024-2025! Secure your child's future with our renowned educational programs.</p>
-                        <p>Join us for a transformative academic journey! Enroll now for the 2024-2025 school year and unlock a world of opportunities.</p>
+                        <p>School Admissions Open for {presentYear}-{presentYear+1}! Secure your child's future with our renowned educational programs.</p>
+                        <p>Join us for a transformative academic journey! Enroll now for the {presentYear}-{presentYear+1} school year and unlock a world of opportunities.</p>
                     </Marquee>
         </div>
         <div className='nav-con'>
