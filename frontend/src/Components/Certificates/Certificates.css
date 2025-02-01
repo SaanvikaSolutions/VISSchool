@@ -9,7 +9,7 @@
 }
 
 .certificates-con>h1{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -23,3 +23,33 @@
     color: red;
     cursor: pointer;
 }
+
+.certificates-con table{
+    border-collapse: collapse;
+    max-width:1500px;
+    width: 100%;
+}
+
+.certificates-con table thead tr th{
+    background-color: rgb(2, 131, 190);
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.certificates-con table td{
+    /* border-collapse: collapse; */
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.certificates-con table tbody tr td:nth-child(1){
+    text-align: center;
+}
+
+.certificate-details td:nth-child(3){
+    text-align: center;
+}
+

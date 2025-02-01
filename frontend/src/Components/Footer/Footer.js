@@ -29,7 +29,7 @@ function Footer(){
                     <p style={{fontWeight:400,fontSize:'14px'}}  className='footer-para' >
                         Vivekananda School prioritizes holistic education and student development through innovative curriculum and nurturing environments.
                     </p>
-                    <p className='footer-para' style={{marginTop:15}}>Urella, road, Chevella, Telangana 501503</p>
+                    <p className='footer-para' style={{marginTop:15}}>Urella road, Devuni yeravally(V), Chevella(M), Ranga Reddy(D), Telangana, 501503.</p>
                 </div>
                 {/* all pages */}
                 <div>
@@ -73,21 +73,21 @@ function Footer(){
                         </li>
                         <li>
                             <LocationOnIcon/>
-                            <p>Urella road, Chevella, Telangana, 501503</p>
+                            <p>Urella road, Devuni yeravally(V), Chevella(M), Ranga Reddy(D), Telangana, 501503.</p>
                         </li>
                     </ul>
                 </div>
                 {/* social media */}
-                <div>
+                {/* <div>
                     <h1>Social Media</h1>
                     <div className='footer-services'>
                         <a href='https://www.facebook.com/profile.php?id=100090426615902' style={{color:'black'}} rel="noreferrer" target="_blank"><FacebookIcon/></a>
                         <a href='https://www.instagram.com/viscbsechevella/' style={{color:'black'}} rel="noreferrer" target="_blank"><InstagramIcon/></a>
-                        {/* <TwitterIcon/>
-                        <LinkedInIcon/> */}
+                        <TwitterIcon/>
+                        <LinkedInIcon/>
                         
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className='footer-last-one'>
                 <p>© {presentyear} Saanvika Software Solutions </p>

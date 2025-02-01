@@ -37,7 +37,7 @@ function App() {
     </Routes>
 
     <NavLink to='/certificates' className='mandatory-disclosure-btn'>
-      <button>
+      <button style={{fontWeight:600}}>
         mandatory public disclosure
       </button>
     </NavLink>

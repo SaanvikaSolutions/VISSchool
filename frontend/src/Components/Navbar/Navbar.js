@@ -61,11 +61,11 @@ function Navbar(){
                 <div className='nav-log-outbox'>
                 <div className='nav-log' onClick={()=>navigate('/')}>
                         <img src={Vlogo} alt='vlogo'/>
-                        {/* <div className='nav-log-head'>
+                        <div className='nav-log-head'>
                             <p><span>v</span>ivekananda</p>
-                            <p><span>i</span>nternational</p>
+                            {/* <p><span>i</span>nternational</p> */}
                             <p><span>s</span>chool</p>
-                        </div> */}
+                        </div>
                 </div>
                 </div>
                 

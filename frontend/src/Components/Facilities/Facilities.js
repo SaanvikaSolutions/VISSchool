@@ -166,7 +166,7 @@ function Facilities(){
                 </div>
                 <div>
                     <LocationOnIcon  sx={{ fontSize: 40 ,color:'#f57a25'}} className='mailoutlineicon'/>
-                    <h1>Urella, road, Chevella, Telangana 501503</h1>
+                    <h1>Urella road, Devuni yeravally(V), Chevella(M), Ranga Reddy(D), Telangana, 501503.</h1>
                 </div>
                 <div>
                     <AccessTimeIcon  sx={{ fontSize: 40,color:'#f57a25' }} className='mailoutlineicon'/>
