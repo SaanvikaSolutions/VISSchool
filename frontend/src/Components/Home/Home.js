@@ -46,21 +46,21 @@ function Home(){
             </div>
             
             <div className='home-page-vis-meru'>
-                <h1>Welcome to vivekananda international school</h1>
+                <h1>Welcome to vivekananda school</h1>
                 <h2>As one of the nurturing schools in Hyderabad, we are a caring community school that focuses on the development and well-being of the child.</h2>
-                <p>At International Schools, VIS strives to ensure that every child is provided with everything necessary for their success. Focused on molding global 
-                    citizens, this international school enables young minds to not only reach the peak of their endeavors but to do so in a responsible and conscientious manner. 
-                    VIS CBSE Schools believes that it’s not just about the destination, but the journey that contributes to the holistic growth of children.
+                <p>At vivekananda school, the school strives to ensure that every child is provided with everything necessary for their success. Focused on molding global citizens, vivekananda school enables 
+                    young minds to not only reach the peak of their endeavors but to do so in a responsible and conscientious manner. vivekananda school CBSE Schools believes that it’s not just 
+                    about the destination, but the journey that contributes to the holistic growth of children.
                 </p>
 
                 <div className='home-remain-vis15'>
                     <div>
                         <img src={vis1} alt='vis1'/>
-                        <h1>5 Acre Campus</h1>
+                        <h1>Campus</h1>
                     </div>
                     <div>
                         <img src={vis2} alt='vis2'/>
-                        <h1>800+ Students & 110+ Staff</h1>
+                        <h1>Students & Staff</h1>
                     </div>
                     <div>
                         <img src={vis3} alt='vis3'/>
@@ -68,20 +68,21 @@ function Home(){
                     </div>
                     <div>
                         <img src={vis4} alt='vis4'/>
-                        <h1>10k+ Books in the Library</h1>
+                        <h1>Library</h1>
                     </div>
                     <div>
                         <img src={vis5} alt='vis5'/>
-                        <h1>250 Security Cameras & 50 Security personnel</h1>
+                        <h1>Security Cameras & Security personnel</h1>
                     </div>
                 </div>
             </div>
 
             <div className='home-page-curriculum'>
                 <h1>Our Curriculum</h1>
-                <p>VIS, renowned for its excellence in education, ensures that every child is equipped with all they need to succeed. Our CBSE schools in Hyderabad are 
-                    dedicated to molding citizens who not only achieve their aspirations but also demonstrate responsibility and conscientiousness. At VIS International Schools, 
-                    we believe in nurturing not just academic success, but also fostering a journey of personal growth for every child.
+                <p>vivekananda school, renowned for its excellence in education, ensures that every child is equipped with all they need to succeed. 
+                    Our CBSE schools in Hyderabad are dedicated to molding citizens who not only achieve their aspirations but also demonstrate 
+                    responsibility and conscientiousness. At vivekananda school, we believe in nurturing not just academic success, but also fostering a journey 
+                    of personal growth for every child.
                 </p>
             </div>
             <div className='homepage-three-curriculum'>
@@ -117,13 +118,13 @@ function Home(){
                         <h1>the</h1>
                         <h1>middle</h1>
                         <h1>stage</h1>
-                        <p>class 6 to 9</p>
-                        <p>( 11 to 14 years )</p>
+                        <p>class 6 to 8</p>
+                        <p>( 11 to 13 years )</p>
                     </div>
                 </div>
             </div>
             <div className='homepage-wwhy-vis'>
-                <h1>WHY VIVEKANANDA INTERNATIONAL SCHOOL?</h1>
+                <h1>WHY VIVEKANANDA SCHOOL?</h1>
                 <p>Old School Values. New Age Methodologies</p>
                 <div className='home-hwd'>
                     <div>
@@ -164,18 +165,14 @@ function Home(){
                     <img src={weltvis} alt='weltovis'/>
                 </div>
                 <div className='home-sec-welcome-vis'>
-                    <p className='home-sec-welcome-vis-head'>welcome to VIS</p>
+                    <p className='home-sec-welcome-vis-head'>welcome to vivekananda school</p>
                     <h1>We are the refreshing change in education</h1>
                     <p className='home-sec-welcome-vis-sec-p'>
-                        Welcome to the school that celebrates India, celebrates your child, instils a sense 
-                        of pride about the country and most importantly, builds a foundation so that 
-                        your child and our country have a lot more to share with this world. Truly 
-                        international thoughts, ideas, concepts, people, professionals, philosophies, 
-                        science, mathematics, art, a way of life and more. Presenting SCHOOL OF INDIA® 
-                        (CBSE Affiliation Code - 830681), for the next generation of Indians. Inspired by 
-                        the country that has taught the world. A school where tomorrow's India is born today; 
-                        Where Nationalism precedes internationalism; Where everyone celebrates India and every student is 
-                        proud of Being Indian.
+                    Welcome to the school that celebrates India, celebrates your child, instils a sense of pride about the country, and most importantly, builds a 
+                    foundation so that your child and our nation have much more to share with the world. Truly global thoughts, ideas, concepts, people, professionals, 
+                    philosophies, science, mathematics, art, a way of life, and more. Presenting SCHOOL OF INDIA®, for the next generation 
+                    of Indians. Inspired by the country that has taught the world. A school where tomorrow's India is born today;
+                    where everyone celebrates India, and every student is proud of being Indian.
                     </p>
                     <div className='teaching-philosophy'>
                         <div className='teaching-philosophy-st' onClick={()=>setphilosophy(prev=>!prev)}>

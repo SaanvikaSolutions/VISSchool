@@ -30,12 +30,10 @@ function About(){
             {/* about - us - head*/}
             <div className='About-us-head'>
                 <h1>About Us</h1>
-                <p className='about-us-head-content'>"At Vivekananda International School, we prioritize the holistic development of our students, 
-                    nurturing not only their minds but also their hearts and souls. Our mission is to provide a 
-                    comprehensive education that fosters intellectual, emotional, and social growth. Guided by 
-                    unwavering commitment to academic integrity, we cultivate an environment where curiosity, 
-                    critical thinking, and creativity thrive, empowering students to become responsible citizens 
-                    and lifelong learners."</p>
+                <p className='about-us-head-content'>"At Vivekananda School, we prioritize the holistic development of our students, nurturing not only their minds but 
+                    also their hearts and souls. Our mission is to provide a comprehensive education that fosters intellectual, emotional, and social growth. Guided by an 
+                    unwavering commitment to academic integrity, we cultivate an environment where curiosity, critical thinking, and creativity thrive, empowering students to 
+                    become responsible citizens and lifelong learners."</p>
                 <div className='about-us-head-v-m'>
                     <p>“Your Vision of the future, is our Mission today.”</p>
                 </div>
@@ -49,7 +47,7 @@ function About(){
                     </div>
                     <div className='about-v-m-each-para'>
                         <h1>Our Mission</h1>
-                        <p>The VIS mission is to create a better future for all children. We believe in maximising 
+                        <p>The vivekananda school mission is to create a better future for all children. We believe in maximising 
                             opportunities for children through holistic, values-based education of the highest 
                             quality and imparting the moral values of honesty, integrity, compassion and 
                             discipline as an integral part of the student’s personality.</p>
@@ -61,7 +59,7 @@ function About(){
                     </div>
                     <div className='about-v-m-each-para'>
                         <h1>Our Vision</h1>
-                        <p>VIS vision is to create an environment where learning is not just restricted to instructions 
+                        <p>vivekananda school vision is to create an environment where learning is not just restricted to instructions 
                             but a passion, which goes beyond books, beyond instructions, beyond learning horizons. We believe 
                             in building character, enriching minds and providing enriching experiences that last a lifetime so 
                             that our children become socially motivated and conscious citizens of India and the world.</p>

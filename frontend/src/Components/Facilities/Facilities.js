@@ -12,7 +12,7 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import Footer from '../Footer/Footer';
 
 //importing facilities
-import academics from './Facilities/academics.jpg';
+import academics from './Facilities/g3.jpg';
 import art from './Facilities/art.jpg';
 import busfacility from './Facilities/busfacility.jpg';
 import csr from './Facilities/csr.jpg';
@@ -31,7 +31,7 @@ function Facilities(){
             <h1 className='rooted-head'>Rooted Academics</h1>
             <div className='facilities-intro'>
                 <div className='facilities-intro-video'>
-                    <iframe  src="https://www.youtube.com/embed/l62SIcbCPwo?si=ZqQApQtQ1EQcRBpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/sgJrlelkeoI?si=3QtxzaEzJRY8BMN9"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
                 <div className='facilities-intro-content'>
                     <h1>
@@ -110,7 +110,7 @@ function Facilities(){
                             <img src={academics} alt='academics'/>
                         </div>
                         <h1>Academics</h1>
-                        <p>Vivekananda International School boasts state-of-the-art classrooms and fully-equipped laboratories dedicated to fostering the academic advancement of its students.</p>
+                        <p>Vivekananda  School boasts state-of-the-art classrooms and fully-equipped laboratories dedicated to fostering the academic advancement of its students.</p>
                     </div>
                     <div className='facilities-meru-con-each'>
                         <div className='facilities-meru-con-each-inner'>
@@ -132,7 +132,7 @@ function Facilities(){
                             <img src={selfdefense} alt='selfdefense'/>
                         </div>
                         <h1>Self-defense classes</h1>
-                        <p>At Vivekananda International School, we prioritize the safety and well-being of our students by imparting essential self-defense skills, 
+                        <p>At Vivekananda  School, we prioritize the safety and well-being of our students by imparting essential self-defense skills, 
                             empowering them to protect themselves effectively.</p>
                     </div>
                     <div className='facilities-meru-con-each'>
@@ -160,24 +160,21 @@ function Facilities(){
                 </div>
                 <div>
                     <MailOutlineIcon  sx={{ fontSize: 40 }} className='mailoutlineicon'/>
-                    <h1>General information:</h1>
-                    <p>vivekanandainternationalschools.com</p>
+                    
                     <h1>Admissions:</h1>
                     <p>viscbsechevella@gmail.com</p>
-                    <h1>Careers:</h1>
-                    <p>vivekanandainternationalschools.com/careers</p>
                 </div>
                 <div>
                     <LocationOnIcon  sx={{ fontSize: 40 ,color:'#f57a25'}} className='mailoutlineicon'/>
-                    <h1>Beside Siddartha B.Ed college, Urella, road, Chevella, Telangana 501503</h1>
+                    <h1>Urella, road, Chevella, Telangana 501503</h1>
                 </div>
                 <div>
                     <AccessTimeIcon  sx={{ fontSize: 40,color:'#f57a25' }} className='mailoutlineicon'/>
                     <h1>Office Hours</h1>
                     <h1>Monday - Friday</h1>
-                    <p>8.30 AM - 3.00 PM</p>
+                    <p>8.30 AM - 5.00 PM</p>
                     <h1>Saturday</h1>
-                    <p>8.30 AM - 1.00 PM</p>
+                    <p>8.30 AM - 4.00 PM</p>
                 </div>
             </div>
             

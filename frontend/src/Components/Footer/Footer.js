@@ -24,12 +24,12 @@ function Footer(){
                 <div>
                     <div className='footer-logocon'>
                         <img src={Vislogo} alt='vislogo' className='footerlogo'/>
-                        <h1>Vivekananda International School</h1>
+                        <h1>Vivekananda School</h1>
                     </div>
                     <p style={{fontWeight:400,fontSize:'14px'}}  className='footer-para' >
-                        Vivekananda International School prioritizes holistic education and student development through innovative curriculum and nurturing environments.
+                        Vivekananda School prioritizes holistic education and student development through innovative curriculum and nurturing environments.
                     </p>
-                    <p className='footer-para' style={{marginTop:15}}>Beside Siddartha B.Ed college, Urella, road, Chevella, Telangana 501503</p>
+                    <p className='footer-para' style={{marginTop:15}}>Urella, road, Chevella, Telangana 501503</p>
                 </div>
                 {/* all pages */}
                 <div>
@@ -73,7 +73,7 @@ function Footer(){
                         </li>
                         <li>
                             <LocationOnIcon/>
-                            <p>Beside Siddartha B.Ed college, Urella road, Chevella, Telangana, 501503</p>
+                            <p>Urella road, Chevella, Telangana, 501503</p>
                         </li>
                     </ul>
                 </div>

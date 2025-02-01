@@ -112,24 +112,22 @@ function Contact(){
                 </div>
                 <div>
                     <MailOutlineIcon  sx={{ fontSize: 40 }} className='mailoutlineicon'/>
-                    <h1>General information:</h1>
-                    <p>vivekanandainternationalschools.com</p>
+                    
                     <h1>Admissions:</h1>
                     <p>viscbsechevella@gmail.com</p>
-                    <h1>Careers:</h1>
-                    <p>vivekanandainternationalschools.com/careers</p>
+                    
                 </div>
                 <div>
                     <LocationOnIcon  sx={{ fontSize: 40 ,color:'#f57a25'}} className='mailoutlineicon'/>
-                    <h1>Beside Siddartha B.Ed college, Urella, road, Chevella, Telangana 501503</h1>
+                    <h1>Urella, road, Chevella, Telangana 501503</h1>
                 </div>
                 <div>
                     <AccessTimeIcon  sx={{ fontSize: 40,color:'#f57a25' }} className='mailoutlineicon'/>
                     <h1>Office Hours</h1>
                     <h1>Monday - Friday</h1>
-                    <p>8.30 AM - 3.00 PM</p>
+                    <p>8.30 AM - 5.00 PM</p>
                     <h1>Saturday</h1>
-                    <p>8.30 AM - 1.00 PM</p>
+                    <p>8.30 AM - 4.00 PM</p>
                 </div>
             </div>
             <Footer/>

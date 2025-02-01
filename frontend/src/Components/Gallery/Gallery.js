@@ -9,11 +9,11 @@ import g1 from './Galleryasset/g1.jpg';
 import g2 from './Galleryasset/g2.jpg';
 import g3 from './Galleryasset/g3.jpg';
 import g4 from './Galleryasset/g4.jpg';
-import g5 from './Galleryasset/g5.jpg';
+import g5 from './Galleryasset/csr.jpg';
 import g6 from './Galleryasset/g6.jpg';
 import g7 from './Galleryasset/g7.jpg';
 import g8 from './Galleryasset/g8.jpg';
-import g9 from './Galleryasset/g9.jpg';
+import g9 from './Galleryasset/sports1.jpg';
 import g10 from './Galleryasset/g10.jpg';
 
 function Gallery(){
@@ -95,7 +95,7 @@ function Gallery(){
                         <img src={g3} alt="gallery-pics"/>
                     </div> */}
                     <div className='gallery-img-inner-item'>
-                    <iframe  src="https://www.youtube.com/embed/l62SIcbCPwo?si=ZqQApQtQ1EQcRBpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe  src="https://www.youtube.com/embed/sgJrlelkeoI?si=3QtxzaEzJRY8BMN9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                     {/* <div className='gallery-img-inner-item'>
                         <img src={g5} alt="gallery-pics"/>
