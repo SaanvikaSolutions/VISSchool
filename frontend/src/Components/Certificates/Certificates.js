@@ -6,7 +6,8 @@ function Certificates(){
     return(
         <>
             <div className="certificates-con">
-                <h1 style={{textTransform:'uppercase'}}>General InformaATION</h1>
+                <h2>mandatory public disclosure</h2>
+                <h1 style={{textTransform:'uppercase'}}>A. General InformaATION</h1>
                 <table className="general-info">
                     <thead>
                         <tr>
@@ -42,22 +43,22 @@ function Certificates(){
                         <tr className="certificate-details">
                             <td>5</td>
                             <td style={{textTransform:'uppercase'}}>principal name & qualification </td>
-                            <td style={{textAlign:'left'}}>Dr.S. Archana Rajkumar</td>
+                            <td style={{textAlign:'left'}}>Dr.S.Archana & MPhil</td>
                         </tr>
                         <tr className="certificate-details">
                             <td>6</td>
                             <td style={{textTransform:'uppercase'}}>school email id</td>
-                            <td style={{textAlign:'left',textWrap:'wrap'}}>vivekanandaschoolchevella1976@gmail.com</td>
+                            <td style={{textAlign:'left',wordBreak:'break-word',overflowWrap:'break-word'}}>vivekanandaschoolchevella1976@gmail.com</td>
                         </tr>
                         <tr className="certificate-details">
                             <td>7</td>
                             <td style={{textTransform:'uppercase'}}>contact details (landline/mobile)</td>
-                            <td style={{textAlign:'left'}}>9613138888</td>
+                            <td style={{textAlign:'left'}}>+91-9613138888</td>
                         </tr>
                     </tbody>
                 </table>
 
-                <h1 style={{textTransform:'uppercase'}}>Documentation and InformaATION</h1>
+                <h1 style={{textTransform:'uppercase'}}>B. Documentation and InformaATION</h1>
                 {/* <a href="/documents/society.pdf" target="_blank" rel="noopener noreferrer">certificate of society registration</a>
                 <a href="/documents/CERTIFICATEOFLAND.pdf" target="_blank" rel="noopener noreferrer">certificate of land</a>
                 <a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer">No Objection Certificate</a>
@@ -79,7 +80,7 @@ function Certificates(){
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>certificate of society registration</td>
+                            <td style={{textTransform:'capitalize'}}>certificate of society registration</td>
                             <td>
                                 <a href="/documents/society.pdf" target="_blank" rel="noopener noreferrer">
                                     view
@@ -88,42 +89,42 @@ function Certificates(){
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>certificate of land</td>
+                            <td style={{textTransform:'capitalize'}}>certificate of land</td>
                             <td><a href="/documents/CERTIFICATEOFLAND.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>No Objection Certificate</td>
+                            <td style={{textTransform:'capitalize'}}>No Objection Certificate</td>
                             <td><a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td>Recognition Certificate</td>
+                            <td style={{textTransform:'capitalize'}}>Recognition Certificate</td>
                             <td><a href="/documents/RecognitionCertificate.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>5</td>
-                            <td>Fire Safety certificate</td>
+                            <td style={{textTransform:'capitalize'}}>Fire Safety certificate</td>
                             <td><a href="/documents/FireSafetyCertificate.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>6</td>
-                            <td>building safety certificate</td>
+                            <td style={{textTransform:'capitalize'}}>building safety certificate</td>
                             <td><a href="/documents/BUILDINGSAFETYCERTIFICATE.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>7</td>
-                            <td>water and sanitation certificate</td>
+                            <td style={{textTransform:'capitalize'}}>water and sanitation certificate</td>
                             <td><a href="/documents/WaterandSanitationCertificate.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>8</td>
-                            <td>slef certification</td>
+                            <td style={{textTransform:'capitalize'}}>slef certification</td>
                             <td><a href="/documents/SELFCERTIFICATION.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
                             <td>9</td>
-                            <td>water testing report</td>
+                            <td style={{textTransform:'capitalize'}}>water testing report</td>
                             <td><a href="/documents/watertestingreport.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         
