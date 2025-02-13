@@ -106,7 +106,7 @@ function Home(){
                             <img src={three2} alt='three2'/>
                         </div>
                         <h1>The</h1>
-                        <h1>preporatory</h1>
+                        <h1>preparatory</h1>
                         <h1>stage</h1>
                         <p>class 3 to 5</p>
                         <p>( 8 to 11 years )</p>
@@ -137,7 +137,7 @@ function Home(){
                         <div>
                             <img src={hwd2} alt='hwd2'/>
                         </div>
-                        <p>Child & Safty</p>
+                        <p>Child safety</p>
                     </div>
                     <div>
                         <div>

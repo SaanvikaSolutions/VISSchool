@@ -7,7 +7,7 @@ function Certificates(){
         <>
             <div className="certificates-con">
                 <h2>mandatory public disclosure</h2>
-                <h1 style={{textTransform:'uppercase'}}>A. General InformaATION</h1>
+                <h1 style={{textTransform:'uppercase'}}>A. General Information</h1>
                 <table className="general-info">
                     <thead>
                         <tr>
@@ -20,7 +20,7 @@ function Certificates(){
                     <tbody>
                         <tr >
                             <td>1</td>
-                            <td style={{textTransform:'uppercase'}}>name od the school</td>
+                            <td style={{textTransform:'uppercase'}}>name of the school</td>
                             <td style={{textAlign:'left'}}>
                                 Vivekananda School
                             </td>
@@ -58,7 +58,7 @@ function Certificates(){
                     </tbody>
                 </table>
 
-                <h1 style={{textTransform:'uppercase'}}>B. Documentation and InformaATION</h1>
+                <h1 style={{textTransform:'uppercase'}}>B. Documentation and Information</h1>
                 {/* <a href="/documents/society.pdf" target="_blank" rel="noopener noreferrer">certificate of society registration</a>
                 <a href="/documents/CERTIFICATEOFLAND.pdf" target="_blank" rel="noopener noreferrer">certificate of land</a>
                 <a href="/documents/NOC.pdf" target="_blank" rel="noopener noreferrer">No Objection Certificate</a>
@@ -119,7 +119,7 @@ function Certificates(){
                         </tr>
                         <tr>
                             <td>8</td>
-                            <td style={{textTransform:'capitalize'}}>slef certification</td>
+                            <td style={{textTransform:'capitalize'}}>self certification</td>
                             <td><a href="/documents/SELFCERTIFICATION.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
                         <tr>
