@@ -127,6 +127,11 @@ function Certificates(){
                             <td style={{textTransform:'capitalize'}}>water testing report</td>
                             <td><a href="/documents/watertestingreport.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
                         </tr>
+                        <tr>
+                            <td>10</td>
+                            <td style={{textTransform:'capitalize'}}>Mandatory disclosure</td>
+                            <td><a href="/documents/Mandatory-disclosure-details.pdf" target="_blank" rel="noopener noreferrer">view</a></td>
+                        </tr>
                         
                     </tbody>
                 </table>
