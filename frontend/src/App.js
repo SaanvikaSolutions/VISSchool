@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter,Routes,Route, NavLink} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Activities from './Components/Activities/Activities';
@@ -20,27 +20,33 @@ import Certificates from './Components/Certificates/Certificates';
 function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/activities' element={<Activities/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/gallery' element={<Gallery/>}/>
-      <Route path='/academics' element={<Academics/>}/>
-      <Route path='/admissions' element={<Admissions/>}/>
-      <Route path='/faq' element={<Faq/>}/>
-      <Route path='/facilities' element={<Facilities/>}/>
-      <Route path='/*' element={<Error/>}/>
-      <Route path='/careers' element={<Career/>}/>
-      <Route path='/certificates' element={<Certificates/>}/>
-    </Routes>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/activities' element={<Activities />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/academics' element={<Academics />} />
+        <Route path='/admissions' element={<Admissions />} />
+        <Route path='/faq' element={<Faq />} />
+        <Route path='/facilities' element={<Facilities />} />
+        <Route path='/*' element={<Error />} />
+        <Route path='/careers' element={<Career />} />
+        <Route path='/certificates' element={<Certificates />} />
+      </Routes>
 
-    <NavLink to='/certificates' className='mandatory-disclosure-btn'>
-      <button style={{fontWeight:600}}>
-        mandatory public disclosure
-      </button>
-    </NavLink>
+      <a
+  href="/documents/Mandatory-disclosure-details.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mandatory-disclosure-btn"
+>
+  <button style={{ fontWeight: 600 }}>
+    Mandatory Public Disclosure
+  </button>
+</a>
+
     </BrowserRouter>
   );
 }

@@ -6,7 +6,7 @@ function Certificates(){
     return(
         <>
             <div className="certificates-con">
-                <a className="Mandatory-cer" href="./documents/Mandatory-disclosure-details.pdf" target="_blank" rel="noopener noreferrer">MANDATORY PUBLIC DISCLOSURE</a>
+                <a className="Mandatory-cer" href="/documents/Mandatory-disclosure-details.pdf" target="_blank" rel="noopener noreferrer">MANDATORY PUBLIC DISCLOSURE</a>
                 <h1 style={{textTransform:'uppercase'}}>A. General Information</h1>
                 <table className="general-info">
                     <thead>
