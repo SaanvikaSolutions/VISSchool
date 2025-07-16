@@ -25,6 +25,11 @@
     text-transform: capitalize;
     color: blue;
 }
+.Mandatory-cer{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+}
 
 .certificates-con>a:hover{
     color: red;
@@ -35,6 +40,7 @@
     border-collapse: collapse;
     max-width:1500px;
     width: 100%;
+    text-decoration: none;
 }
 
 .certificates-con table thead tr th{
