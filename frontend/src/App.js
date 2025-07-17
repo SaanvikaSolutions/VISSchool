@@ -37,15 +37,15 @@ function App() {
       </Routes>
 
       <a
-  href="/documents/Mandatory-disclosure-details.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mandatory-disclosure-btn"
->
-  <button style={{ fontWeight: 600 }}>
-    Mandatory Public Disclosure
-  </button>
-</a>
+        href="/documents/Mandatory-disclosure-details.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mandatory-disclosure-btn"
+      >
+        <button style={{ fontWeight: 600 }}>
+          Mandatory Public Disclosure
+        </button>
+      </a>
 
     </BrowserRouter>
   );
